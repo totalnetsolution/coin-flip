@@ -1,6 +1,11 @@
 body {
+    margin: 0;
+    padding: 0;
+    background-image: url('./image/7c83afe4915fc72564941ab32ff1e37d.gif');
+    background-size: cover;
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    text-align: center;
+    color: #ffffff;
 }
 
 .container {
@@ -13,7 +18,7 @@ body {
 }
 
 #coin-img {
-    width: 200px;
+    width: 300px;
 }
 
 #flip-button {
