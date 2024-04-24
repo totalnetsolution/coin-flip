@@ -7,10 +7,10 @@ function flipCoin() {
 
     // Update coin image based on random number
     if (randomNumber === 0) {
-        coinImg.src = "./image/head.jpg";
+        coinImg.src = "./image/head.png";
         resultElement.textContent = "You Win";
     } else {
-        coinImg.src = "./image/tails.jpg";
+        coinImg.src = "./image/tails.png";
         resultElement.textContent = "You Lose";
     }
 }
@@ -24,10 +24,10 @@ function tossCoin() {
 
     // Update coin image based on random number
     if (randomNumber === 1) {
-        coinImg.src = "./image/tails.jpg";
+        coinImg.src = "./image/tails.png";
         resultElement.textContent = "You Win";
     } else {
-        coinImg.src = "./image/head.jpg";
+        coinImg.src = "./image/head.png";
         resultElement.textContent = "You Lose";
     }
 }
